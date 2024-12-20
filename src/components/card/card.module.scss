@@ -1,0 +1,25 @@
+.root {
+  border-radius: 12px;
+  background-color: var(--background-white);
+  overflow: hidden;
+  border: 1px solid var(--border-default);
+  font-weight: 100;
+  font-size: var(--text-base-font-size);
+  line-height: var(--text-base-line-height);
+  &:hover {
+    cursor: pointer;
+    box-shadow: 0 8px 16px -4px var(--background-black);
+    opacity: 71%;
+  }
+}
+.image {
+  width: 100%;
+  aspect-ratio: 3/2;
+  object-fit: cover;
+}
+.content {
+  padding: var(--space-16);
+  font-size: var(--text-base-font-size);
+  line-height: var(--text-base-line-height);
+  font-weight: 400;
+}
